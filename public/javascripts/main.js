@@ -6,7 +6,7 @@
 	app.config(['$routeProvider', function ($routeProvider){
     	$routeProvider
     		.when('/', {
-        		templateUrl: '/assets/html/load.html',
+        		templateUrl: '/assets/partials/load.html',
 				controller: 'LoadController'
     		})
     		.otherwise({redirectTo: '/'});
